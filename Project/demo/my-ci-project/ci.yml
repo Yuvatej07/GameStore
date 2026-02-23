@@ -26,6 +26,18 @@ jobs:
             echo "workdir=$DIR" >> $GITHUB_OUTPUT
           fi
 
+      - name: Debug: show discovered pom path and list files
+        if: steps.find_pom.outputs.no_pom != 'true'
+        run: |
+          echo "workdir='${{ steps.find_pom.outputs.workdir }}'"
+          echo "pom file path: '${{ steps.find_pom.outputs.workdir }}/pom.xml'"
+          echo "--- repo root listing ---"
+          ls -la
+          echo "--- workdir listing ---"
+          ls -la "${{ steps.find_pom.outputs.workdir }}" || true
+          echo "--- git ls-files matching pom ---"
+          git ls-files | grep --line-number '\.*/pom.xml\|^pom.xml' || true
+
       - name: Set up Java (for Maven)
         uses: actions/setup-java@v3
         with:
