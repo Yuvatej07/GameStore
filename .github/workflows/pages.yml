@@ -29,28 +29,22 @@ jobs:
           java-version: "17"
           cache: maven
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-          cache: npm
-
-      - name: Install npm dependencies
-        run: npm ci
-
       - name: Run UI tests for Allure results
         continue-on-error: true
         run: |
           python -m http.server 5501 >/tmp/http-server.log 2>&1 &
           mvn -f Project/demo/pom.xml test -Dbase.url=http://127.0.0.1:5501
 
-      - name: Generate Allure report
+      - name: Generate Allure report with Maven
+        if: always()
+        continue-on-error: true
+        run: mvn -f Project/demo/pom.xml allure:report
+
+      - name: Prepare Pages artifact
         if: always()
         run: |
-          if [ -d Project/demo/target/allure-results ]; then
-            npx allure-commandline generate Project/demo/target/allure-results --clean -o _site
-          elif [ -d Project/demo/allure-results ]; then
-            npx allure-commandline generate Project/demo/allure-results --clean -o _site
+          if [ -d Project/demo/target/site/allure-maven-plugin ]; then
+            cp -r Project/demo/target/site/allure-maven-plugin _site
           else
             mkdir -p _site
             printf '%s\n' '<h1>No Allure results generated in this run.</h1>' > _site/index.html
