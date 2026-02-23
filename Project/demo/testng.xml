@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="GameStoreSuite">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+    <test name="LoginTests">
+        <classes>
+            <class name="com.example.Tests.LoginPageTest"/>
+            <class name="com.example.Tests.HomePageTest"/>
+            <class name="com.example.Tests.CartPageTest"/>
+            <class name="com.example.Tests.PaymentPageTest"/>
+            <class name="com.example.Tests.OrdersPageTest"/>
+        </classes>
+    </test>
+</suite>

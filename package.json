@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "allure": "^3.2.0",
+    "allure-commandline": "^2.36.0"
+  }
+}

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="Shadow Circuit cover art">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7C4DFF"/>
+      <stop offset="1" stop-color="#FF4D6D"/>
+    </linearGradient>
+    <radialGradient id="r" cx="30%" cy="25%" r="75%">
+      <stop offset="0" stop-color="rgba(255,255,255,.22)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+    <filter id="n" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="
+        0 0 0 0 0
+        0 0 0 0 0
+        0 0 0 0 0
+        0 0 0 .18 0"/>
+    </filter>
+  </defs>
+  <rect width="960" height="600" fill="#0B1020"/>
+  <rect width="960" height="600" fill="url(#g)" opacity=".85"/>
+  <rect width="960" height="600" fill="url(#r)"/>
+  <rect width="960" height="600" filter="url(#n)" opacity=".65"/>
+  <g opacity=".85">
+    <path d="M70 430 C220 300, 340 520, 520 420 S 820 380, 900 260" fill="none" stroke="rgba(255,255,255,.22)" stroke-width="10"/>
+    <path d="M60 510 C250 380, 420 560, 600 470 S 840 460, 930 330" fill="none" stroke="rgba(0,0,0,.25)" stroke-width="14"/>
+  </g>
+  <!-- Mask + circuit lines icon -->
+  <g opacity=".28" transform="translate(250 150)">
+    <path d="M230 70 C320 70, 392 122, 404 205 C410 250, 395 315, 355 360 C320 400, 275 430, 230 450 C185 430, 140 400, 105 360 C65 315, 50 250, 56 205 C68 122, 140 70, 230 70 Z"
+      fill="rgba(255,255,255,.18)" stroke="rgba(0,0,0,.22)" stroke-width="8" />
+    <path d="M120 220 C160 190, 200 178, 230 178 C260 178, 300 190, 340 220"
+      fill="none" stroke="rgba(0,0,0,.22)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M140 245 C175 225, 205 218, 230 218 C255 218, 285 225, 320 245"
+      fill="none" stroke="rgba(255,255,255,.16)" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="170" cy="250" r="10" fill="rgba(255,255,255,.18)"/>
+    <circle cx="290" cy="250" r="10" fill="rgba(255,255,255,.18)"/>
+    <path d="M60 140 H140 V110 H190" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="60" cy="140" r="10" fill="rgba(0,0,0,.18)"/>
+    <path d="M400 160 H330 V120 H280" fill="none" stroke="rgba(0,0,0,.18)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity=".7"/>
+    <circle cx="400" cy="160" r="10" fill="rgba(255,255,255,.14)"/>
+  </g>
+  <g>
+    <text x="56" y="88" fill="rgba(255,255,255,.92)" font-family="ui-sans-serif,system-ui" font-weight="800" font-size="44">Shadow Circuit</text>
+    <text x="58" y="126" fill="rgba(255,255,255,.75)" font-family="ui-monospace,monospace" font-weight="700" font-size="18">GAME STORE - DEMO ART</text>
+  </g>
+</svg>

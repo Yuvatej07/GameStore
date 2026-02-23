@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="Neon Drift cover art">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7C4DFF"/>
+      <stop offset="1" stop-color="#00D4FF"/>
+    </linearGradient>
+    <radialGradient id="r" cx="30%" cy="25%" r="75%">
+      <stop offset="0" stop-color="rgba(255,255,255,.22)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+    <filter id="n" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="
+        0 0 0 0 0
+        0 0 0 0 0
+        0 0 0 0 0
+        0 0 0 .18 0"/>
+    </filter>
+  </defs>
+  <rect width="960" height="600" fill="#0B1020"/>
+  <rect width="960" height="600" fill="url(#g)" opacity=".85"/>
+  <rect width="960" height="600" fill="url(#r)"/>
+  <rect width="960" height="600" filter="url(#n)" opacity=".65"/>
+  <g opacity=".85">
+    <path d="M70 430 C220 300, 340 520, 520 420 S 820 380, 900 260" fill="none" stroke="rgba(255,255,255,.22)" stroke-width="10"/>
+    <path d="M60 510 C250 380, 420 560, 600 470 S 840 460, 930 330" fill="none" stroke="rgba(0,0,0,.25)" stroke-width="14"/>
+  </g>
+  <!-- Racing car icon -->
+  <g opacity=".28" transform="translate(120 250)">
+    <path d="M160 210 C190 165, 255 140, 340 140 L430 140 C505 140, 555 165, 595 205 L645 205 C670 205, 690 225, 690 250 L690 270 C690 295, 670 315, 645 315 L120 315 C95 315, 75 295, 75 270 L75 250 C75 225, 95 205, 120 205 L180 205 Z"
+      fill="rgba(255,255,255,.22)" stroke="rgba(0,0,0,.22)" stroke-width="6" />
+    <path d="M300 140 L360 92 C380 76, 405 68, 432 68 L520 68 C550 68, 570 85, 580 110 L595 140 Z"
+      fill="rgba(255,255,255,.18)" stroke="rgba(0,0,0,.18)" stroke-width="6" />
+    <circle cx="210" cy="315" r="54" fill="rgba(0,0,0,.22)"/>
+    <circle cx="560" cy="315" r="54" fill="rgba(0,0,0,.22)"/>
+    <circle cx="210" cy="315" r="30" fill="rgba(255,255,255,.22)"/>
+    <circle cx="560" cy="315" r="30" fill="rgba(255,255,255,.22)"/>
+    <path d="M20 240 L130 240" stroke="rgba(255,255,255,.22)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M12 270 L110 270" stroke="rgba(255,255,255,.16)" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g>
+    <text x="56" y="88" fill="rgba(255,255,255,.92)" font-family="ui-sans-serif,system-ui" font-weight="800" font-size="44">Neon Drift</text>
+    <text x="58" y="126" fill="rgba(255,255,255,.75)" font-family="ui-monospace,monospace" font-weight="700" font-size="18">GAME STORE - DEMO ART</text>
+  </g>
+</svg>

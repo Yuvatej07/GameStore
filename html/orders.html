@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="View your purchase history." />
+    <title>Game Store • Orders</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script defer src="./js/app.js?v=2026-02-18-1"></script>
+  </head>
+  <body data-page="orders">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="nav" id="nav"></header>
+
+    <main id="main" class="container">
+      <h1 class="page-title">Purchase history</h1>
+      <p class="page-subtitle">All your orders are saved in LocalStorage on this device.</p>
+
+      <div id="orders-success" class="card card-pad" style="display:none; border-color: rgba(53,208,127,.35); background: rgba(53,208,127,.06);">
+        <b>Payment successful.</b>
+        <div class="helper" id="orders-success-msg" style="margin-top: 6px;"></div>
+      </div>
+
+      <section id="orders" class="orders" aria-label="Orders list" style="margin-top: 14px;"></section>
+      <p id="no-orders" class="page-subtitle" style="display:none; margin-top: 14px;">
+        No orders yet. Shop on <a href="./index.html" class="pill">Home</a>.
+      </p>
+    </main>
+
+    <div class="toasts" id="toasts" aria-live="polite" aria-relevant="additions"></div>
+  </body>
+</html>

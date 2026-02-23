@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Enter payment details to complete your purchase." />
+    <title>Game Store • Payment</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script defer src="./js/app.js?v=2026-02-18-1"></script>
+  </head>
+  <body data-page="payment">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="nav" id="nav"></header>
+
+    <main id="main" class="container">
+      <h1 class="page-title">Payment</h1>
+      <p class="page-subtitle">
+        This is a demo payment flow. Your card is not sent anywhere — the “processing” is simulated.
+      </p>
+
+      <div class="details">
+        <section class="card card-pad" aria-label="Payment form">
+          <form id="payment-form" novalidate>
+            <div class="field">
+              <label class="label" for="card-name">Cardholder name</label>
+              <input class="input" id="card-name" name="cardName" autocomplete="cc-name" placeholder="Alex Gamer" required />
+            </div>
+
+            <div class="field">
+              <label class="label" for="card-number">Card number</label>
+              <input class="input" id="card-number" name="cardNumber" inputmode="numeric" autocomplete="cc-number" placeholder="1234 5678 9012 3456" required />
+              <div class="helper">We validate with a Luhn check (basic card number validation).</div>
+            </div>
+
+            <div class="grid" style="gap: 12px;">
+              <div class="field" style="grid-column: span 6;">
+                <label class="label" for="exp">Expiry (MM/YY)</label>
+                <input class="input" id="exp" name="exp" inputmode="numeric" autocomplete="cc-exp" placeholder="08/29" required />
+              </div>
+              <div class="field" style="grid-column: span 6;">
+                <label class="label" for="cvv">CVV</label>
+                <input class="input" id="cvv" name="cvv" inputmode="numeric" autocomplete="cc-csc" placeholder="123" required />
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label" for="billing">Billing address</label>
+              <input class="input" id="billing" name="billing" autocomplete="billing street-address" placeholder="221B Baker Street" required />
+            </div>
+
+            <div class="grid" style="gap: 12px;">
+              <div class="field" style="grid-column: span 6;">
+                <label class="label" for="city">City</label>
+                <input class="input" id="city" name="city" autocomplete="address-level2" placeholder="Hyderabad" required />
+              </div>
+              <div class="field" style="grid-column: span 3;">
+                <label class="label" for="zip">ZIP / Postal</label>
+                <input class="input" id="zip" name="zip" autocomplete="postal-code" placeholder="500001" required />
+              </div>
+              <div class="field" style="grid-column: span 3;">
+                <label class="label" for="country">Country</label>
+                <select class="select" id="country" name="country" autocomplete="country-name" required>
+                  <option value="" selected disabled>Select</option>
+                  <option>India</option>
+                  <option>United States</option>
+                  <option>United Kingdom</option>
+                  <option>Canada</option>
+                  <option>Australia</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+
+            <div style="display:flex; gap: 10px; flex-wrap: wrap; margin-top: 10px;">
+              <a class="btn btn-ghost" href="./cart.html">Back to cart</a>
+              <button class="btn btn-primary" id="pay-btn" type="submit">Pay now</button>
+            </div>
+
+            <p id="pay-msg" class="error" role="alert" aria-live="polite" style="display:none;"></p>
+          </form>
+        </section>
+
+        <aside class="card card-pad" aria-label="Order summary">
+          <h2 style="margin:0 0 8px; font-size: 18px;">Order summary</h2>
+          <div id="order-items" class="order-items" style="margin-top: 0;"></div>
+          <div style="height: 1px; background: rgba(255,255,255,.10); margin: 12px 0;"></div>
+          <div class="summary">
+            <div class="page-subtitle" style="margin:0;">Total</div>
+            <div class="total" id="order-total">$0.00</div>
+          </div>
+          <p class="helper" style="margin-top: 12px;">
+            After payment, your order will be saved to Purchase History and your cart will be cleared.
+          </p>
+        </aside>
+      </div>
+
+      <p id="no-cart" class="page-subtitle" style="display:none; margin-top: 14px;">
+        Your cart is empty. Go to <a href="./index.html" class="pill">Home</a>.
+      </p>
+    </main>
+
+    <div class="toasts" id="toasts" aria-live="polite" aria-relevant="additions"></div>
+  </body>
+</html>

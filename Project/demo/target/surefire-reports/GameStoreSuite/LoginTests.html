@@ -1,0 +1,405 @@
+<html>
+<head>
+<title>TestNG:  LoginTests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>LoginTests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>65/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 23 11:10:31 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>416 seconds (416569 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.example.Tests.HomePageTest.verifyUnknownSearchShowsEmptyMessage()'><b>verifyUnknownSearchShowsEmptyMessage</b><br>Test class: com.example.Tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.HomePageTest@97e93f1</td></tr>
+<tr>
+<td title='com.example.Tests.PaymentPageTest.verifyValidationForInvalidCardNumber()'><b>verifyValidationForInvalidCardNumber</b><br>Test class: com.example.Tests.PaymentPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.example.Tests.PaymentPageTest@4b520ea8</td></tr>
+<tr>
+<td title='com.example.Tests.PaymentPageTest.verifyValidationForMissingCountry()'><b>verifyValidationForMissingCountry</b><br>Test class: com.example.Tests.PaymentPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.example.Tests.PaymentPageTest@4b520ea8</td></tr>
+<tr>
+<td title='com.example.Tests.OrdersPageTest.verifyOrdersPageLoads()'><b>verifyOrdersPageLoads</b><br>Test class: com.example.Tests.OrdersPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.OrdersPageTest@16150369</td></tr>
+<tr>
+<td title='com.example.Tests.HomePageTest.verifyResetButtonVisible()'><b>verifyResetButtonVisible</b><br>Test class: com.example.Tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.HomePageTest@97e93f1</td></tr>
+<tr>
+<td title='com.example.Tests.CartPageTest.verifyCartPageLoads()'><b>verifyCartPageLoads</b><br>Test class: com.example.Tests.CartPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.CartPageTest@5a5a729f</td></tr>
+<tr>
+<td title='com.example.Tests.LoginPageTest.loginWithWrongPassword()'><b>loginWithWrongPassword</b><br>Test class: com.example.Tests.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.LoginPageTest@3f4faf53</td></tr>
+<tr>
+<td title='com.example.Tests.LoginPageTest.loginWithEmptyFields()'><b>loginWithEmptyFields</b><br>Test class: com.example.Tests.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.LoginPageTest@3f4faf53</td></tr>
+<tr>
+<td title='com.example.Tests.CartPageTest.verifyEmptyCartMessageShown()'><b>verifyEmptyCartMessageShown</b><br>Test class: com.example.Tests.CartPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.CartPageTest@5a5a729f</td></tr>
+<tr>
+<td title='com.example.Tests.PaymentPageTest.verifySuccessfulPaymentRedirectsToOrders()'><b>verifySuccessfulPaymentRedirectsToOrders</b><br>Test class: com.example.Tests.PaymentPageTest</td>
+<td></td>
+<td>5</td>
+<td>com.example.Tests.PaymentPageTest@4b520ea8</td></tr>
+<tr>
+<td title='com.example.Tests.LoginPageTest.multipleInvalidLoginAttempts()'><b>multipleInvalidLoginAttempts</b><br>Test class: com.example.Tests.LoginPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.example.Tests.LoginPageTest@3f4faf53</td></tr>
+<tr>
+<td title='com.example.Tests.HomePageTest.verifySubtitleIsVisibleAndNotEmpty()'><b>verifySubtitleIsVisibleAndNotEmpty</b><br>Test class: com.example.Tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.HomePageTest@97e93f1</td></tr>
+<tr>
+<td title='com.example.Tests.CartPageTest.verifySingleItemIsRendered()'><b>verifySingleItemIsRendered</b><br>Test class: com.example.Tests.CartPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.CartPageTest@5a5a729f</td></tr>
+<tr>
+<td title='com.example.Tests.CartPageTest.verifyCheckoutNavigatesToPaymentPage()'><b>verifyCheckoutNavigatesToPaymentPage</b><br>Test class: com.example.Tests.CartPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.example.Tests.CartPageTest@5a5a729f</td></tr>
+<tr>
+<td title='com.example.Tests.HomePageTest.verifyHomePageLoads()'><b>verifyHomePageLoads</b><br>Test class: com.example.Tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.HomePageTest@97e93f1</td></tr>
+<tr>
+<td title='com.example.Tests.OrdersPageTest.verifyOrderMetaContainsPurchasedLabel()'><b>verifyOrderMetaContainsPurchasedLabel</b><br>Test class: com.example.Tests.OrdersPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.example.Tests.OrdersPageTest@16150369</td></tr>
+<tr>
+<td title='com.example.Tests.LoginPageTest.verifyPasswordIsHidden()'><b>verifyPasswordIsHidden</b><br>Test class: com.example.Tests.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.LoginPageTest@3f4faf53</td></tr>
+<tr>
+<td title='com.example.Tests.PaymentPageTest.verifyCardNumberAutoFormatting()'><b>verifyCardNumberAutoFormatting</b><br>Test class: com.example.Tests.PaymentPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.example.Tests.PaymentPageTest@4b520ea8</td></tr>
+<tr>
+<td title='com.example.Tests.CartPageTest.verifyFooterHiddenWhenCartIsEmpty()'><b>verifyFooterHiddenWhenCartIsEmpty</b><br>Test class: com.example.Tests.CartPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.CartPageTest@5a5a729f</td></tr>
+<tr>
+<td title='com.example.Tests.HomePageTest.verifySearchValueUpdatesOnSecondInput()'><b>verifySearchValueUpdatesOnSecondInput</b><br>Test class: com.example.Tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.HomePageTest@97e93f1</td></tr>
+<tr>
+<td title='com.example.Tests.LoginPageTest.loginWithShortPassword()'><b>loginWithShortPassword</b><br>Test class: com.example.Tests.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.LoginPageTest@3f4faf53</td></tr>
+<tr>
+<td title='com.example.Tests.CartPageTest.verifyIncreaseQuantityUpdatesCount()'><b>verifyIncreaseQuantityUpdatesCount</b><br>Test class: com.example.Tests.CartPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.example.Tests.CartPageTest@5a5a729f</td></tr>
+<tr>
+<td title='com.example.Tests.LoginPageTest.verifyLoginPageLoads()'><b>verifyLoginPageLoads</b><br>Test class: com.example.Tests.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.LoginPageTest@3f4faf53</td></tr>
+<tr>
+<td title='com.example.Tests.PaymentPageTest.verifyValidationForInvalidCvv()'><b>verifyValidationForInvalidCvv</b><br>Test class: com.example.Tests.PaymentPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.example.Tests.PaymentPageTest@4b520ea8</td></tr>
+<tr>
+<td title='com.example.Tests.HomePageTest.verifyGamesGridLoads()'><b>verifyGamesGridLoads</b><br>Test class: com.example.Tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.HomePageTest@97e93f1</td></tr>
+<tr>
+<td title='com.example.Tests.PaymentPageTest.verifyOrderTotalForSingleItem()'><b>verifyOrderTotalForSingleItem</b><br>Test class: com.example.Tests.PaymentPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.example.Tests.PaymentPageTest@4b520ea8</td></tr>
+<tr>
+<td title='com.example.Tests.OrdersPageTest.verifyNewPurchaseIncreasesStoredOrderCount()'><b>verifyNewPurchaseIncreasesStoredOrderCount</b><br>Test class: com.example.Tests.OrdersPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.example.Tests.OrdersPageTest@16150369</td></tr>
+<tr>
+<td title='com.example.Tests.PaymentPageTest.verifyPaymentPageLoadsAfterCheckout()'><b>verifyPaymentPageLoadsAfterCheckout</b><br>Test class: com.example.Tests.PaymentPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.example.Tests.PaymentPageTest@4b520ea8</td></tr>
+<tr>
+<td title='com.example.Tests.CartPageTest.verifyRemoveItemMakesCartEmpty()'><b>verifyRemoveItemMakesCartEmpty</b><br>Test class: com.example.Tests.CartPageTest</td>
+<td></td>
+<td>11</td>
+<td>com.example.Tests.CartPageTest@5a5a729f</td></tr>
+<tr>
+<td title='com.example.Tests.HomePageTest.verifyUrlIsHomePage()'><b>verifyUrlIsHomePage</b><br>Test class: com.example.Tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.HomePageTest@97e93f1</td></tr>
+<tr>
+<td title='com.example.Tests.LoginPageTest.verifySignupTabSwitch()'><b>verifySignupTabSwitch</b><br>Test class: com.example.Tests.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.LoginPageTest@3f4faf53</td></tr>
+<tr>
+<td title='com.example.Tests.HomePageTest.verifyToastContainerExists()'><b>verifyToastContainerExists</b><br>Test class: com.example.Tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.HomePageTest@97e93f1</td></tr>
+<tr>
+<td title='com.example.Tests.PaymentPageTest.verifyCvvAllowsOnlyDigitsAndMaxLengthFour()'><b>verifyCvvAllowsOnlyDigitsAndMaxLengthFour</b><br>Test class: com.example.Tests.PaymentPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.example.Tests.PaymentPageTest@4b520ea8</td></tr>
+<tr>
+<td title='com.example.Tests.PaymentPageTest.verifyValidationForInvalidExpiry()'><b>verifyValidationForInvalidExpiry</b><br>Test class: com.example.Tests.PaymentPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.example.Tests.PaymentPageTest@4b520ea8</td></tr>
+<tr>
+<td title='com.example.Tests.OrdersPageTest.verifyAtLeastOneOrderCardRendered()'><b>verifyAtLeastOneOrderCardRendered</b><br>Test class: com.example.Tests.OrdersPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.example.Tests.OrdersPageTest@16150369</td></tr>
+<tr>
+<td title='com.example.Tests.PaymentPageTest.verifyOrderSummaryShowsAddedItems()'><b>verifyOrderSummaryShowsAddedItems</b><br>Test class: com.example.Tests.PaymentPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.example.Tests.PaymentPageTest@4b520ea8</td></tr>
+<tr>
+<td title='com.example.Tests.CartPageTest.verifyGrandTotalForMultipleItems()'><b>verifyGrandTotalForMultipleItems</b><br>Test class: com.example.Tests.CartPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.CartPageTest@5a5a729f</td></tr>
+<tr>
+<td title='com.example.Tests.CartPageTest.verifyGrandTotalForSingleItem()'><b>verifyGrandTotalForSingleItem</b><br>Test class: com.example.Tests.CartPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.CartPageTest@5a5a729f</td></tr>
+<tr>
+<td title='com.example.Tests.OrdersPageTest.verifyOrderIdFormatStartsWithGS()'><b>verifyOrderIdFormatStartsWithGS</b><br>Test class: com.example.Tests.OrdersPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.example.Tests.OrdersPageTest@16150369</td></tr>
+<tr>
+<td title='com.example.Tests.HomePageTest.verifyResetClearsSearch()'><b>verifyResetClearsSearch</b><br>Test class: com.example.Tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.HomePageTest@97e93f1</td></tr>
+<tr>
+<td title='com.example.Tests.LoginPageTest.loginWithInvalidEmail()'><b>loginWithInvalidEmail</b><br>Test class: com.example.Tests.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.LoginPageTest@3f4faf53</td></tr>
+<tr>
+<td title='com.example.Tests.OrdersPageTest.verifyNoOrdersMessageWhenOrderListIsEmpty()'><b>verifyNoOrdersMessageWhenOrderListIsEmpty</b><br>Test class: com.example.Tests.OrdersPageTest</td>
+<td></td>
+<td>10</td>
+<td>com.example.Tests.OrdersPageTest@16150369</td></tr>
+<tr>
+<td title='com.example.Tests.LoginPageTest.verifyEmailFieldInput()'><b>verifyEmailFieldInput</b><br>Test class: com.example.Tests.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.LoginPageTest@3f4faf53</td></tr>
+<tr>
+<td title='com.example.Tests.LoginPageTest.verifyLoginButtonEnabled()'><b>verifyLoginButtonEnabled</b><br>Test class: com.example.Tests.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.LoginPageTest@3f4faf53</td></tr>
+<tr>
+<td title='com.example.Tests.PaymentPageTest.verifyOrderSummaryForMultipleItems()'><b>verifyOrderSummaryForMultipleItems</b><br>Test class: com.example.Tests.PaymentPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.example.Tests.PaymentPageTest@4b520ea8</td></tr>
+<tr>
+<td title='com.example.Tests.HomePageTest.verifySearchBoxInitiallyEmpty()'><b>verifySearchBoxInitiallyEmpty</b><br>Test class: com.example.Tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.HomePageTest@97e93f1</td></tr>
+<tr>
+<td title='com.example.Tests.HomePageTest.verifySearchFunctionality()'><b>verifySearchFunctionality</b><br>Test class: com.example.Tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.HomePageTest@97e93f1</td></tr>
+<tr>
+<td title='com.example.Tests.PaymentPageTest.verifyOrderTotalForMultipleItems()'><b>verifyOrderTotalForMultipleItems</b><br>Test class: com.example.Tests.PaymentPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.example.Tests.PaymentPageTest@4b520ea8</td></tr>
+<tr>
+<td title='com.example.Tests.CartPageTest.verifyRemovingOneItemKeepsOtherItemInCart()'><b>verifyRemovingOneItemKeepsOtherItemInCart</b><br>Test class: com.example.Tests.CartPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.CartPageTest@5a5a729f</td></tr>
+<tr>
+<td title='com.example.Tests.HomePageTest.verifySearchBoxVisible()'><b>verifySearchBoxVisible</b><br>Test class: com.example.Tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.HomePageTest@97e93f1</td></tr>
+<tr>
+<td title='com.example.Tests.CartPageTest.verifyFooterVisibleWhenCartHasItems()'><b>verifyFooterVisibleWhenCartHasItems</b><br>Test class: com.example.Tests.CartPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.example.Tests.CartPageTest@5a5a729f</td></tr>
+<tr>
+<td title='com.example.Tests.OrdersPageTest.verifyOrdersPageUrlIsCorrect()'><b>verifyOrdersPageUrlIsCorrect</b><br>Test class: com.example.Tests.OrdersPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.example.Tests.OrdersPageTest@16150369</td></tr>
+<tr>
+<td title='com.example.Tests.PaymentPageTest.verifyValidationForEmptyCardholderName()'><b>verifyValidationForEmptyCardholderName</b><br>Test class: com.example.Tests.PaymentPageTest</td>
+<td></td>
+<td>4</td>
+<td>com.example.Tests.PaymentPageTest@4b520ea8</td></tr>
+<tr>
+<td title='com.example.Tests.HomePageTest.verifySearchBoxEnabled()'><b>verifySearchBoxEnabled</b><br>Test class: com.example.Tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.HomePageTest@97e93f1</td></tr>
+<tr>
+<td title='com.example.Tests.OrdersPageTest.verifyStoredOrdersCountIsPositive()'><b>verifyStoredOrdersCountIsPositive</b><br>Test class: com.example.Tests.OrdersPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.example.Tests.OrdersPageTest@16150369</td></tr>
+<tr>
+<td title='com.example.Tests.HomePageTest.verifyPageTitle()'><b>verifyPageTitle</b><br>Test class: com.example.Tests.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.HomePageTest@97e93f1</td></tr>
+<tr>
+<td title='com.example.Tests.OrdersPageTest.verifyOrdersListVisibleWhenOrdersExist()'><b>verifyOrdersListVisibleWhenOrdersExist</b><br>Test class: com.example.Tests.OrdersPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.example.Tests.OrdersPageTest@16150369</td></tr>
+<tr>
+<td title='com.example.Tests.OrdersPageTest.verifyAnotherPurchaseAddsAnotherRenderedOrder()'><b>verifyAnotherPurchaseAddsAnotherRenderedOrder</b><br>Test class: com.example.Tests.OrdersPageTest</td>
+<td></td>
+<td>7</td>
+<td>com.example.Tests.OrdersPageTest@16150369</td></tr>
+<tr>
+<td title='com.example.Tests.CartPageTest.verifyDecreaseQuantityDoesNotGoBelowOne()'><b>verifyDecreaseQuantityDoesNotGoBelowOne</b><br>Test class: com.example.Tests.CartPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.example.Tests.CartPageTest@5a5a729f</td></tr>
+<tr>
+<td title='com.example.Tests.CartPageTest.verifyRemovingSingleItemHidesFooter()'><b>verifyRemovingSingleItemHidesFooter</b><br>Test class: com.example.Tests.CartPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.example.Tests.CartPageTest@5a5a729f</td></tr>
+<tr>
+<td title='com.example.Tests.PaymentPageTest.verifyExpiryAutoFormatting()'><b>verifyExpiryAutoFormatting</b><br>Test class: com.example.Tests.PaymentPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.example.Tests.PaymentPageTest@4b520ea8</td></tr>
+<tr>
+<td title='com.example.Tests.OrdersPageTest.verifySuccessBannerShownAfterPaymentRedirect()'><b>verifySuccessBannerShownAfterPaymentRedirect</b><br>Test class: com.example.Tests.OrdersPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.example.Tests.OrdersPageTest@16150369</td></tr>
+<tr>
+<td title='com.example.Tests.PaymentPageTest.verifyNoCartMessageWhenOpeningPaymentWithEmptyCart()'><b>verifyNoCartMessageWhenOpeningPaymentWithEmptyCart</b><br>Test class: com.example.Tests.PaymentPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.example.Tests.PaymentPageTest@4b520ea8</td></tr>
+<tr>
+<td title='com.example.Tests.OrdersPageTest.verifyOrderTotalPriceIsDisplayed()'><b>verifyOrderTotalPriceIsDisplayed</b><br>Test class: com.example.Tests.OrdersPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.example.Tests.OrdersPageTest@16150369</td></tr>
+<tr>
+<td title='com.example.Tests.OrdersPageTest.verifyOrderContainsLineItems()'><b>verifyOrderContainsLineItems</b><br>Test class: com.example.Tests.OrdersPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.example.Tests.OrdersPageTest@16150369</td></tr>
+</table><p>
+</body>
+</html>

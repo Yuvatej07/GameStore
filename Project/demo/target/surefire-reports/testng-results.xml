@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="65" passed="65" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-23T11:10:31 IST" name="GameStoreSuite" finished-at="2026-02-23T11:17:28 IST" duration-ms="416569">
+    <groups>
+    </groups>
+    <test started-at="2026-02-23T11:10:31 IST" name="LoginTests" finished-at="2026-02-23T11:17:28 IST" duration-ms="416569">
+      <class name="com.example.Tests.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:11:38 IST" name="setup" finished-at="2026-02-23T11:11:42 IST" duration-ms="3585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:11:42 IST" name="initPageObject" finished-at="2026-02-23T11:11:42 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyGamesGridLoads()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:11:42 IST" name="verifyGamesGridLoads" finished-at="2026-02-23T11:11:42 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGamesGridLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:11:42 IST" name="tearDown" finished-at="2026-02-23T11:11:43 IST" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:11:43 IST" name="setup" finished-at="2026-02-23T11:11:46 IST" duration-ms="3160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:11:46 IST" name="initPageObject" finished-at="2026-02-23T11:11:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyHomePageLoads()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:11:46 IST" name="verifyHomePageLoads" finished-at="2026-02-23T11:11:46 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:11:46 IST" name="tearDown" finished-at="2026-02-23T11:11:47 IST" duration-ms="872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:11:47 IST" name="setup" finished-at="2026-02-23T11:11:50 IST" duration-ms="3294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:11:50 IST" name="initPageObject" finished-at="2026-02-23T11:11:50 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyPageTitle()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:11:50 IST" name="verifyPageTitle" finished-at="2026-02-23T11:11:51 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:11:51 IST" name="tearDown" finished-at="2026-02-23T11:11:53 IST" duration-ms="2031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:11:53 IST" name="setup" finished-at="2026-02-23T11:11:56 IST" duration-ms="3486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:11:56 IST" name="initPageObject" finished-at="2026-02-23T11:11:56 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyResetButtonVisible()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:11:56 IST" name="verifyResetButtonVisible" finished-at="2026-02-23T11:11:56 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResetButtonVisible -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:11:56 IST" name="tearDown" finished-at="2026-02-23T11:11:57 IST" duration-ms="973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:11:57 IST" name="setup" finished-at="2026-02-23T11:12:01 IST" duration-ms="3551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:01 IST" name="initPageObject" finished-at="2026-02-23T11:12:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyResetClearsSearch()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:01 IST" name="verifyResetClearsSearch" finished-at="2026-02-23T11:12:01 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResetClearsSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:01 IST" name="tearDown" finished-at="2026-02-23T11:12:02 IST" duration-ms="776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:02 IST" name="setup" finished-at="2026-02-23T11:12:05 IST" duration-ms="3501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:05 IST" name="initPageObject" finished-at="2026-02-23T11:12:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifySearchBoxEnabled()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:05 IST" name="verifySearchBoxEnabled" finished-at="2026-02-23T11:12:05 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBoxEnabled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:05 IST" name="tearDown" finished-at="2026-02-23T11:12:06 IST" duration-ms="796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:06 IST" name="setup" finished-at="2026-02-23T11:12:10 IST" duration-ms="3526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:10 IST" name="initPageObject" finished-at="2026-02-23T11:12:10 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifySearchBoxInitiallyEmpty()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:10 IST" name="verifySearchBoxInitiallyEmpty" finished-at="2026-02-23T11:12:10 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBoxInitiallyEmpty -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:10 IST" name="tearDown" finished-at="2026-02-23T11:12:10 IST" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:10 IST" name="setup" finished-at="2026-02-23T11:12:14 IST" duration-ms="3390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:14 IST" name="initPageObject" finished-at="2026-02-23T11:12:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifySearchBoxVisible()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:14 IST" name="verifySearchBoxVisible" finished-at="2026-02-23T11:12:14 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBoxVisible -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:14 IST" name="tearDown" finished-at="2026-02-23T11:12:15 IST" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:15 IST" name="setup" finished-at="2026-02-23T11:12:18 IST" duration-ms="3281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:18 IST" name="initPageObject" finished-at="2026-02-23T11:12:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifySearchFunctionality()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:18 IST" name="verifySearchFunctionality" finished-at="2026-02-23T11:12:18 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:18 IST" name="tearDown" finished-at="2026-02-23T11:12:19 IST" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:19 IST" name="setup" finished-at="2026-02-23T11:12:23 IST" duration-ms="3846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:23 IST" name="initPageObject" finished-at="2026-02-23T11:12:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifySearchValueUpdatesOnSecondInput()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:23 IST" name="verifySearchValueUpdatesOnSecondInput" finished-at="2026-02-23T11:12:23 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchValueUpdatesOnSecondInput -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:23 IST" name="tearDown" finished-at="2026-02-23T11:12:24 IST" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:24 IST" name="setup" finished-at="2026-02-23T11:12:27 IST" duration-ms="3275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:27 IST" name="initPageObject" finished-at="2026-02-23T11:12:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifySubtitleIsVisibleAndNotEmpty()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:27 IST" name="verifySubtitleIsVisibleAndNotEmpty" finished-at="2026-02-23T11:12:27 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubtitleIsVisibleAndNotEmpty -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:27 IST" name="tearDown" finished-at="2026-02-23T11:12:28 IST" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:28 IST" name="setup" finished-at="2026-02-23T11:12:31 IST" duration-ms="3471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:31 IST" name="initPageObject" finished-at="2026-02-23T11:12:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyToastContainerExists()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:31 IST" name="verifyToastContainerExists" finished-at="2026-02-23T11:12:31 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToastContainerExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:31 IST" name="tearDown" finished-at="2026-02-23T11:12:32 IST" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:32 IST" name="setup" finished-at="2026-02-23T11:12:35 IST" duration-ms="3285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:35 IST" name="initPageObject" finished-at="2026-02-23T11:12:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyUnknownSearchShowsEmptyMessage()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:35 IST" name="verifyUnknownSearchShowsEmptyMessage" finished-at="2026-02-23T11:12:35 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnknownSearchShowsEmptyMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:35 IST" name="tearDown" finished-at="2026-02-23T11:12:36 IST" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:36 IST" name="setup" finished-at="2026-02-23T11:12:40 IST" duration-ms="3530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:40 IST" name="initPageObject" finished-at="2026-02-23T11:12:40 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyUrlIsHomePage()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:40 IST" name="verifyUrlIsHomePage" finished-at="2026-02-23T11:12:40 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrlIsHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.HomePageTest@97e93f1]" started-at="2026-02-23T11:12:40 IST" name="tearDown" finished-at="2026-02-23T11:12:40 IST" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.Tests.HomePageTest -->
+      <class name="com.example.Tests.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:10:31 IST" name="setup" finished-at="2026-02-23T11:10:37 IST" duration-ms="5570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initWait()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:10:37 IST" name="initWait" finished-at="2026-02-23T11:10:37 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWait -->
+        <test-method signature="loginWithEmptyFields()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:10:37 IST" name="loginWithEmptyFields" finished-at="2026-02-23T11:10:37 IST" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithEmptyFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:10:37 IST" name="tearDown" finished-at="2026-02-23T11:10:40 IST" duration-ms="3049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:10:40 IST" name="setup" finished-at="2026-02-23T11:10:45 IST" duration-ms="4602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initWait()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:10:45 IST" name="initWait" finished-at="2026-02-23T11:10:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWait -->
+        <test-method signature="loginWithInvalidEmail()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:10:45 IST" name="loginWithInvalidEmail" finished-at="2026-02-23T11:10:46 IST" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:10:46 IST" name="tearDown" finished-at="2026-02-23T11:10:49 IST" duration-ms="2924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:10:49 IST" name="setup" finished-at="2026-02-23T11:10:54 IST" duration-ms="5428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initWait()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:10:54 IST" name="initWait" finished-at="2026-02-23T11:10:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWait -->
+        <test-method signature="loginWithShortPassword()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:10:54 IST" name="loginWithShortPassword" finished-at="2026-02-23T11:10:54 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithShortPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:10:54 IST" name="tearDown" finished-at="2026-02-23T11:10:56 IST" duration-ms="1297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:10:56 IST" name="setup" finished-at="2026-02-23T11:11:00 IST" duration-ms="4268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initWait()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:00 IST" name="initWait" finished-at="2026-02-23T11:11:00 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWait -->
+        <test-method signature="loginWithWrongPassword()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:00 IST" name="loginWithWrongPassword" finished-at="2026-02-23T11:11:00 IST" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:00 IST" name="tearDown" finished-at="2026-02-23T11:11:01 IST" duration-ms="1029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:01 IST" name="setup" finished-at="2026-02-23T11:11:06 IST" duration-ms="4610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initWait()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:06 IST" name="initWait" finished-at="2026-02-23T11:11:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWait -->
+        <test-method signature="multipleInvalidLoginAttempts()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:06 IST" name="multipleInvalidLoginAttempts" finished-at="2026-02-23T11:11:08 IST" duration-ms="1675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleInvalidLoginAttempts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:08 IST" name="tearDown" finished-at="2026-02-23T11:11:11 IST" duration-ms="2863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:11 IST" name="setup" finished-at="2026-02-23T11:11:18 IST" duration-ms="7298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initWait()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:18 IST" name="initWait" finished-at="2026-02-23T11:11:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWait -->
+        <test-method signature="verifyEmailFieldInput()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:18 IST" name="verifyEmailFieldInput" finished-at="2026-02-23T11:11:18 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailFieldInput -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:18 IST" name="tearDown" finished-at="2026-02-23T11:11:19 IST" duration-ms="861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:19 IST" name="setup" finished-at="2026-02-23T11:11:23 IST" duration-ms="4172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initWait()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:23 IST" name="initWait" finished-at="2026-02-23T11:11:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWait -->
+        <test-method signature="verifyLoginButtonEnabled()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:23 IST" name="verifyLoginButtonEnabled" finished-at="2026-02-23T11:11:23 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButtonEnabled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:23 IST" name="tearDown" finished-at="2026-02-23T11:11:24 IST" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:24 IST" name="setup" finished-at="2026-02-23T11:11:28 IST" duration-ms="3870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initWait()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:28 IST" name="initWait" finished-at="2026-02-23T11:11:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWait -->
+        <test-method signature="verifyLoginPageLoads()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:28 IST" name="verifyLoginPageLoads" finished-at="2026-02-23T11:11:28 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:28 IST" name="tearDown" finished-at="2026-02-23T11:11:29 IST" duration-ms="783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:29 IST" name="setup" finished-at="2026-02-23T11:11:32 IST" duration-ms="3753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initWait()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:32 IST" name="initWait" finished-at="2026-02-23T11:11:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWait -->
+        <test-method signature="verifyPasswordIsHidden()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:32 IST" name="verifyPasswordIsHidden" finished-at="2026-02-23T11:11:32 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordIsHidden -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:32 IST" name="tearDown" finished-at="2026-02-23T11:11:33 IST" duration-ms="792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:33 IST" name="setup" finished-at="2026-02-23T11:11:37 IST" duration-ms="3907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initWait()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:37 IST" name="initWait" finished-at="2026-02-23T11:11:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWait -->
+        <test-method signature="verifySignupTabSwitch()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:37 IST" name="verifySignupTabSwitch" finished-at="2026-02-23T11:11:37 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignupTabSwitch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.LoginPageTest@3f4faf53]" started-at="2026-02-23T11:11:37 IST" name="tearDown" finished-at="2026-02-23T11:11:38 IST" duration-ms="1044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.Tests.LoginPageTest -->
+      <class name="com.example.Tests.PaymentPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:13:58 IST" name="setup" finished-at="2026-02-23T11:14:01 IST" duration-ms="3109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:01 IST" name="initPageObject" finished-at="2026-02-23T11:14:01 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyCardNumberAutoFormatting()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:01 IST" name="verifyCardNumberAutoFormatting" finished-at="2026-02-23T11:14:02 IST" duration-ms="1205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCardNumberAutoFormatting -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:02 IST" name="tearDown" finished-at="2026-02-23T11:14:03 IST" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:03 IST" name="setup" finished-at="2026-02-23T11:14:06 IST" duration-ms="2888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCvvAllowsOnlyDigitsAndMaxLengthFour()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:06 IST" name="verifyCvvAllowsOnlyDigitsAndMaxLengthFour" finished-at="2026-02-23T11:14:07 IST" duration-ms="1212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCvvAllowsOnlyDigitsAndMaxLengthFour -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:06 IST" name="initPageObject" finished-at="2026-02-23T11:14:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:07 IST" name="tearDown" finished-at="2026-02-23T11:14:08 IST" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:08 IST" name="setup" finished-at="2026-02-23T11:14:11 IST" duration-ms="3203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:11 IST" name="initPageObject" finished-at="2026-02-23T11:14:11 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyExpiryAutoFormatting()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:11 IST" name="verifyExpiryAutoFormatting" finished-at="2026-02-23T11:14:13 IST" duration-ms="1435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyExpiryAutoFormatting -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:13 IST" name="tearDown" finished-at="2026-02-23T11:14:14 IST" duration-ms="759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:14 IST" name="setup" finished-at="2026-02-23T11:14:17 IST" duration-ms="2983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:17 IST" name="initPageObject" finished-at="2026-02-23T11:14:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyNoCartMessageWhenOpeningPaymentWithEmptyCart()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:17 IST" name="verifyNoCartMessageWhenOpeningPaymentWithEmptyCart" finished-at="2026-02-23T11:14:17 IST" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoCartMessageWhenOpeningPaymentWithEmptyCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:17 IST" name="tearDown" finished-at="2026-02-23T11:14:18 IST" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:18 IST" name="setup" finished-at="2026-02-23T11:14:21 IST" duration-ms="3299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:21 IST" name="initPageObject" finished-at="2026-02-23T11:14:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyOrderSummaryForMultipleItems()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:21 IST" name="verifyOrderSummaryForMultipleItems" finished-at="2026-02-23T11:14:23 IST" duration-ms="1473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderSummaryForMultipleItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:23 IST" name="tearDown" finished-at="2026-02-23T11:14:23 IST" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:23 IST" name="setup" finished-at="2026-02-23T11:14:26 IST" duration-ms="3005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:26 IST" name="initPageObject" finished-at="2026-02-23T11:14:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyOrderSummaryShowsAddedItems()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:26 IST" name="verifyOrderSummaryShowsAddedItems" finished-at="2026-02-23T11:14:28 IST" duration-ms="1181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderSummaryShowsAddedItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:28 IST" name="tearDown" finished-at="2026-02-23T11:14:28 IST" duration-ms="579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:28 IST" name="setup" finished-at="2026-02-23T11:14:31 IST" duration-ms="3012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:31 IST" name="initPageObject" finished-at="2026-02-23T11:14:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyOrderTotalForMultipleItems()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:31 IST" name="verifyOrderTotalForMultipleItems" finished-at="2026-02-23T11:14:33 IST" duration-ms="1562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderTotalForMultipleItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:33 IST" name="tearDown" finished-at="2026-02-23T11:14:34 IST" duration-ms="760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:34 IST" name="setup" finished-at="2026-02-23T11:14:36 IST" duration-ms="2852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:36 IST" name="initPageObject" finished-at="2026-02-23T11:14:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyOrderTotalForSingleItem()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:37 IST" name="verifyOrderTotalForSingleItem" finished-at="2026-02-23T11:14:38 IST" duration-ms="1241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderTotalForSingleItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:38 IST" name="tearDown" finished-at="2026-02-23T11:14:38 IST" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:38 IST" name="setup" finished-at="2026-02-23T11:14:41 IST" duration-ms="2958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:41 IST" name="initPageObject" finished-at="2026-02-23T11:14:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyPaymentPageLoadsAfterCheckout()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:41 IST" name="verifyPaymentPageLoadsAfterCheckout" finished-at="2026-02-23T11:14:43 IST" duration-ms="1239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentPageLoadsAfterCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:43 IST" name="tearDown" finished-at="2026-02-23T11:14:43 IST" duration-ms="748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:43 IST" name="setup" finished-at="2026-02-23T11:14:47 IST" duration-ms="3397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:47 IST" name="initPageObject" finished-at="2026-02-23T11:14:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifySuccessfulPaymentRedirectsToOrders()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:47 IST" name="verifySuccessfulPaymentRedirectsToOrders" finished-at="2026-02-23T11:14:52 IST" duration-ms="5319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulPaymentRedirectsToOrders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:52 IST" name="tearDown" finished-at="2026-02-23T11:14:56 IST" duration-ms="3252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:14:56 IST" name="setup" finished-at="2026-02-23T11:15:00 IST" duration-ms="4255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:15:00 IST" name="initPageObject" finished-at="2026-02-23T11:15:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyValidationForEmptyCardholderName()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:15:00 IST" name="verifyValidationForEmptyCardholderName" finished-at="2026-02-23T11:15:04 IST" duration-ms="4285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidationForEmptyCardholderName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:15:04 IST" name="tearDown" finished-at="2026-02-23T11:15:05 IST" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:15:05 IST" name="setup" finished-at="2026-02-23T11:15:08 IST" duration-ms="3267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:15:08 IST" name="initPageObject" finished-at="2026-02-23T11:15:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyValidationForInvalidCardNumber()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:15:08 IST" name="verifyValidationForInvalidCardNumber" finished-at="2026-02-23T11:15:11 IST" duration-ms="3282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidationForInvalidCardNumber -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:15:11 IST" name="tearDown" finished-at="2026-02-23T11:15:12 IST" duration-ms="742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:15:12 IST" name="setup" finished-at="2026-02-23T11:15:16 IST" duration-ms="3470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:15:16 IST" name="initPageObject" finished-at="2026-02-23T11:15:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyValidationForInvalidCvv()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:15:16 IST" name="verifyValidationForInvalidCvv" finished-at="2026-02-23T11:15:20 IST" duration-ms="3885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidationForInvalidCvv -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:15:20 IST" name="tearDown" finished-at="2026-02-23T11:15:20 IST" duration-ms="751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:15:20 IST" name="setup" finished-at="2026-02-23T11:15:24 IST" duration-ms="3719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:15:24 IST" name="initPageObject" finished-at="2026-02-23T11:15:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyValidationForInvalidExpiry()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:15:24 IST" name="verifyValidationForInvalidExpiry" finished-at="2026-02-23T11:15:28 IST" duration-ms="3711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidationForInvalidExpiry -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:15:28 IST" name="tearDown" finished-at="2026-02-23T11:15:29 IST" duration-ms="695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:15:29 IST" name="setup" finished-at="2026-02-23T11:15:32 IST" duration-ms="3562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:15:32 IST" name="initPageObject" finished-at="2026-02-23T11:15:32 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyValidationForMissingCountry()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:15:32 IST" name="verifyValidationForMissingCountry" finished-at="2026-02-23T11:15:35 IST" duration-ms="2779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidationForMissingCountry -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.PaymentPageTest@4b520ea8]" started-at="2026-02-23T11:15:35 IST" name="tearDown" finished-at="2026-02-23T11:15:36 IST" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.Tests.PaymentPageTest -->
+      <class name="com.example.Tests.CartPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:12:40 IST" name="setup" finished-at="2026-02-23T11:12:44 IST" duration-ms="3442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:12:44 IST" name="initPageObject" finished-at="2026-02-23T11:12:44 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyCartPageLoads()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:12:44 IST" name="verifyCartPageLoads" finished-at="2026-02-23T11:12:44 IST" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartPageLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:12:44 IST" name="tearDown" finished-at="2026-02-23T11:12:45 IST" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:12:45 IST" name="setup" finished-at="2026-02-23T11:12:49 IST" duration-ms="3587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:12:49 IST" name="initPageObject" finished-at="2026-02-23T11:12:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyCheckoutNavigatesToPaymentPage()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:12:49 IST" name="verifyCheckoutNavigatesToPaymentPage" finished-at="2026-02-23T11:12:50 IST" duration-ms="1143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutNavigatesToPaymentPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:12:50 IST" name="tearDown" finished-at="2026-02-23T11:12:50 IST" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:12:50 IST" name="setup" finished-at="2026-02-23T11:12:54 IST" duration-ms="3437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:12:54 IST" name="initPageObject" finished-at="2026-02-23T11:12:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyDecreaseQuantityDoesNotGoBelowOne()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:12:54 IST" name="verifyDecreaseQuantityDoesNotGoBelowOne" finished-at="2026-02-23T11:12:55 IST" duration-ms="1205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDecreaseQuantityDoesNotGoBelowOne -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:12:55 IST" name="tearDown" finished-at="2026-02-23T11:12:56 IST" duration-ms="820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:12:56 IST" name="setup" finished-at="2026-02-23T11:13:00 IST" duration-ms="3543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:00 IST" name="initPageObject" finished-at="2026-02-23T11:13:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyEmptyCartMessageShown()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:00 IST" name="verifyEmptyCartMessageShown" finished-at="2026-02-23T11:13:00 IST" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyCartMessageShown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:00 IST" name="tearDown" finished-at="2026-02-23T11:13:01 IST" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:01 IST" name="setup" finished-at="2026-02-23T11:13:04 IST" duration-ms="3567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:04 IST" name="initPageObject" finished-at="2026-02-23T11:13:04 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyFooterHiddenWhenCartIsEmpty()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:04 IST" name="verifyFooterHiddenWhenCartIsEmpty" finished-at="2026-02-23T11:13:05 IST" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterHiddenWhenCartIsEmpty -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:05 IST" name="tearDown" finished-at="2026-02-23T11:13:05 IST" duration-ms="751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:05 IST" name="setup" finished-at="2026-02-23T11:13:09 IST" duration-ms="3345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:09 IST" name="initPageObject" finished-at="2026-02-23T11:13:09 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyFooterVisibleWhenCartHasItems()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:09 IST" name="verifyFooterVisibleWhenCartHasItems" finished-at="2026-02-23T11:13:10 IST" duration-ms="1328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterVisibleWhenCartHasItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:10 IST" name="tearDown" finished-at="2026-02-23T11:13:11 IST" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:11 IST" name="setup" finished-at="2026-02-23T11:13:15 IST" duration-ms="3820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:15 IST" name="initPageObject" finished-at="2026-02-23T11:13:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyGrandTotalForMultipleItems()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:15 IST" name="verifyGrandTotalForMultipleItems" finished-at="2026-02-23T11:13:16 IST" duration-ms="990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGrandTotalForMultipleItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:16 IST" name="tearDown" finished-at="2026-02-23T11:13:17 IST" duration-ms="767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:17 IST" name="setup" finished-at="2026-02-23T11:13:20 IST" duration-ms="3614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyGrandTotalForSingleItem()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:20 IST" name="verifyGrandTotalForSingleItem" finished-at="2026-02-23T11:13:21 IST" duration-ms="894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGrandTotalForSingleItem -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:20 IST" name="initPageObject" finished-at="2026-02-23T11:13:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:21 IST" name="tearDown" finished-at="2026-02-23T11:13:22 IST" duration-ms="778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:22 IST" name="setup" finished-at="2026-02-23T11:13:26 IST" duration-ms="3588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:26 IST" name="initPageObject" finished-at="2026-02-23T11:13:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyIncreaseQuantityUpdatesCount()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:26 IST" name="verifyIncreaseQuantityUpdatesCount" finished-at="2026-02-23T11:13:27 IST" duration-ms="1006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncreaseQuantityUpdatesCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:27 IST" name="tearDown" finished-at="2026-02-23T11:13:28 IST" duration-ms="784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:28 IST" name="setup" finished-at="2026-02-23T11:13:31 IST" duration-ms="3659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:31 IST" name="initPageObject" finished-at="2026-02-23T11:13:31 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyRemoveItemMakesCartEmpty()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:31 IST" name="verifyRemoveItemMakesCartEmpty" finished-at="2026-02-23T11:13:42 IST" duration-ms="11128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRemoveItemMakesCartEmpty -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:42 IST" name="tearDown" finished-at="2026-02-23T11:13:43 IST" duration-ms="967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:43 IST" name="setup" finished-at="2026-02-23T11:13:47 IST" duration-ms="3244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:47 IST" name="initPageObject" finished-at="2026-02-23T11:13:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyRemovingOneItemKeepsOtherItemInCart()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:47 IST" name="verifyRemovingOneItemKeepsOtherItemInCart" finished-at="2026-02-23T11:13:48 IST" duration-ms="943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRemovingOneItemKeepsOtherItemInCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:48 IST" name="tearDown" finished-at="2026-02-23T11:13:48 IST" duration-ms="665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:48 IST" name="setup" finished-at="2026-02-23T11:13:51 IST" duration-ms="3118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:51 IST" name="initPageObject" finished-at="2026-02-23T11:13:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifyRemovingSingleItemHidesFooter()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:51 IST" name="verifyRemovingSingleItemHidesFooter" finished-at="2026-02-23T11:13:53 IST" duration-ms="1107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRemovingSingleItemHidesFooter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:53 IST" name="tearDown" finished-at="2026-02-23T11:13:53 IST" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:53 IST" name="setup" finished-at="2026-02-23T11:13:56 IST" duration-ms="3067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:56 IST" name="initPageObject" finished-at="2026-02-23T11:13:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method signature="verifySingleItemIsRendered()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:56 IST" name="verifySingleItemIsRendered" finished-at="2026-02-23T11:13:57 IST" duration-ms="956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySingleItemIsRendered -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.CartPageTest@5a5a729f]" started-at="2026-02-23T11:13:57 IST" name="tearDown" finished-at="2026-02-23T11:13:58 IST" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.Tests.CartPageTest -->
+      <class name="com.example.Tests.OrdersPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:15:36 IST" name="setup" finished-at="2026-02-23T11:15:39 IST" duration-ms="3514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:15:39 IST" name="initPages" finished-at="2026-02-23T11:15:39 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="verifyAnotherPurchaseAddsAnotherRenderedOrder()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:15:39 IST" name="verifyAnotherPurchaseAddsAnotherRenderedOrder" finished-at="2026-02-23T11:15:46 IST" duration-ms="7121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAnotherPurchaseAddsAnotherRenderedOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:15:47 IST" name="tearDown" finished-at="2026-02-23T11:15:47 IST" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:15:47 IST" name="setup" finished-at="2026-02-23T11:15:51 IST" duration-ms="3380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:15:51 IST" name="initPages" finished-at="2026-02-23T11:15:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="verifyAtLeastOneOrderCardRendered()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:15:51 IST" name="verifyAtLeastOneOrderCardRendered" finished-at="2026-02-23T11:15:54 IST" duration-ms="3763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAtLeastOneOrderCardRendered -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:15:54 IST" name="tearDown" finished-at="2026-02-23T11:15:55 IST" duration-ms="683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:15:55 IST" name="setup" finished-at="2026-02-23T11:15:59 IST" duration-ms="3509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyNewPurchaseIncreasesStoredOrderCount()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:15:59 IST" name="verifyNewPurchaseIncreasesStoredOrderCount" finished-at="2026-02-23T11:16:02 IST" duration-ms="3655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewPurchaseIncreasesStoredOrderCount -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:15:59 IST" name="initPages" finished-at="2026-02-23T11:15:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:02 IST" name="tearDown" finished-at="2026-02-23T11:16:03 IST" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:03 IST" name="setup" finished-at="2026-02-23T11:16:07 IST" duration-ms="3480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:07 IST" name="initPages" finished-at="2026-02-23T11:16:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="verifyNoOrdersMessageWhenOrderListIsEmpty()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:07 IST" name="verifyNoOrdersMessageWhenOrderListIsEmpty" finished-at="2026-02-23T11:16:17 IST" duration-ms="10353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoOrdersMessageWhenOrderListIsEmpty -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:17 IST" name="tearDown" finished-at="2026-02-23T11:16:18 IST" duration-ms="876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:18 IST" name="setup" finished-at="2026-02-23T11:16:22 IST" duration-ms="3656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:22 IST" name="initPages" finished-at="2026-02-23T11:16:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="verifyOrderContainsLineItems()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:22 IST" name="verifyOrderContainsLineItems" finished-at="2026-02-23T11:16:25 IST" duration-ms="3787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderContainsLineItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:25 IST" name="tearDown" finished-at="2026-02-23T11:16:26 IST" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:26 IST" name="setup" finished-at="2026-02-23T11:16:29 IST" duration-ms="3420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:29 IST" name="initPages" finished-at="2026-02-23T11:16:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="verifyOrderIdFormatStartsWithGS()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:29 IST" name="verifyOrderIdFormatStartsWithGS" finished-at="2026-02-23T11:16:33 IST" duration-ms="3627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderIdFormatStartsWithGS -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:33 IST" name="tearDown" finished-at="2026-02-23T11:16:34 IST" duration-ms="835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:34 IST" name="setup" finished-at="2026-02-23T11:16:38 IST" duration-ms="3609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:38 IST" name="initPages" finished-at="2026-02-23T11:16:38 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="verifyOrderMetaContainsPurchasedLabel()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:38 IST" name="verifyOrderMetaContainsPurchasedLabel" finished-at="2026-02-23T11:16:41 IST" duration-ms="3844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderMetaContainsPurchasedLabel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:42 IST" name="tearDown" finished-at="2026-02-23T11:16:42 IST" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:42 IST" name="setup" finished-at="2026-02-23T11:16:46 IST" duration-ms="3758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:46 IST" name="initPages" finished-at="2026-02-23T11:16:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="verifyOrderTotalPriceIsDisplayed()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:46 IST" name="verifyOrderTotalPriceIsDisplayed" finished-at="2026-02-23T11:16:50 IST" duration-ms="3905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderTotalPriceIsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:50 IST" name="tearDown" finished-at="2026-02-23T11:16:51 IST" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:51 IST" name="setup" finished-at="2026-02-23T11:16:54 IST" duration-ms="3446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:54 IST" name="initPages" finished-at="2026-02-23T11:16:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="verifyOrdersListVisibleWhenOrdersExist()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:54 IST" name="verifyOrdersListVisibleWhenOrdersExist" finished-at="2026-02-23T11:16:58 IST" duration-ms="3678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrdersListVisibleWhenOrdersExist -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:58 IST" name="tearDown" finished-at="2026-02-23T11:16:59 IST" duration-ms="793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:16:59 IST" name="setup" finished-at="2026-02-23T11:17:02 IST" duration-ms="3642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyOrdersPageLoads()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:17:02 IST" name="verifyOrdersPageLoads" finished-at="2026-02-23T11:17:03 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrdersPageLoads -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:17:02 IST" name="initPages" finished-at="2026-02-23T11:17:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:17:03 IST" name="tearDown" finished-at="2026-02-23T11:17:04 IST" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:17:04 IST" name="setup" finished-at="2026-02-23T11:17:07 IST" duration-ms="3374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:17:07 IST" name="initPages" finished-at="2026-02-23T11:17:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="verifyOrdersPageUrlIsCorrect()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:17:07 IST" name="verifyOrdersPageUrlIsCorrect" finished-at="2026-02-23T11:17:11 IST" duration-ms="3706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrdersPageUrlIsCorrect -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:17:11 IST" name="tearDown" finished-at="2026-02-23T11:17:11 IST" duration-ms="659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:17:11 IST" name="setup" finished-at="2026-02-23T11:17:15 IST" duration-ms="3512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:17:15 IST" name="initPages" finished-at="2026-02-23T11:17:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="verifyStoredOrdersCountIsPositive()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:17:15 IST" name="verifyStoredOrdersCountIsPositive" finished-at="2026-02-23T11:17:19 IST" duration-ms="3654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStoredOrdersCountIsPositive -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:17:19 IST" name="tearDown" finished-at="2026-02-23T11:17:19 IST" duration-ms="752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:17:19 IST" name="setup" finished-at="2026-02-23T11:17:23 IST" duration-ms="3600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySuccessBannerShownAfterPaymentRedirect()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:17:23 IST" name="verifySuccessBannerShownAfterPaymentRedirect" finished-at="2026-02-23T11:17:27 IST" duration-ms="3745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessBannerShownAfterPaymentRedirect -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:17:23 IST" name="initPages" finished-at="2026-02-23T11:17:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.Tests.OrdersPageTest@16150369]" started-at="2026-02-23T11:17:27 IST" name="tearDown" finished-at="2026-02-23T11:17:28 IST" duration-ms="802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.Tests.OrdersPageTest -->
+    </test> <!-- LoginTests -->
+  </suite> <!-- GameStoreSuite -->
+</testng-results>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="Cryptkeeper cover art">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#35D07F"/>
+      <stop offset="1" stop-color="#7C4DFF"/>
+    </linearGradient>
+    <radialGradient id="r" cx="30%" cy="25%" r="75%">
+      <stop offset="0" stop-color="rgba(255,255,255,.22)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+    <filter id="n" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="
+        0 0 0 0 0
+        0 0 0 0 0
+        0 0 0 0 0
+        0 0 0 .18 0"/>
+    </filter>
+  </defs>
+  <rect width="960" height="600" fill="#0B1020"/>
+  <rect width="960" height="600" fill="url(#g)" opacity=".85"/>
+  <rect width="960" height="600" fill="url(#r)"/>
+  <rect width="960" height="600" filter="url(#n)" opacity=".65"/>
+  <g opacity=".85">
+    <path d="M70 430 C220 300, 340 520, 520 420 S 820 380, 900 260" fill="none" stroke="rgba(255,255,255,.22)" stroke-width="10"/>
+    <path d="M60 510 C250 380, 420 560, 600 470 S 840 460, 930 330" fill="none" stroke="rgba(0,0,0,.25)" stroke-width="14"/>
+  </g>
+  <!-- Skull + key icon -->
+  <g opacity=".28" transform="translate(260 165)">
+    <path d="M220 60 C310 60, 382 128, 382 215 C382 278, 350 330, 300 360 L300 404 C300 430, 280 450, 254 450 L186 450 C160 450, 140 430, 140 404 L140 360 C90 330, 58 278, 58 215 C58 128, 130 60, 220 60 Z"
+      fill="rgba(255,255,255,.18)" stroke="rgba(0,0,0,.22)" stroke-width="8" />
+    <ellipse cx="170" cy="210" rx="26" ry="34" fill="rgba(0,0,0,.22)"/>
+    <ellipse cx="270" cy="210" rx="26" ry="34" fill="rgba(0,0,0,.22)"/>
+    <path d="M220 250 C200 262, 200 290, 220 302 C240 290, 240 262, 220 250 Z" fill="rgba(0,0,0,.22)"/>
+    <rect x="188" y="376" width="64" height="48" rx="10" fill="rgba(0,0,0,.18)"/>
+    <!-- Key -->
+    <g transform="translate(340 250) rotate(-18)">
+      <circle cx="60" cy="60" r="38" fill="none" stroke="rgba(255,255,255,.20)" stroke-width="10"/>
+      <circle cx="60" cy="60" r="14" fill="rgba(255,255,255,.14)"/>
+      <path d="M92 60 L190 60 L190 90 L164 90 L164 110 L142 110 L142 90 L92 90 Z"
+        fill="rgba(255,255,255,.18)" stroke="rgba(0,0,0,.18)" stroke-width="6" stroke-linejoin="round"/>
+    </g>
+  </g>
+  <g>
+    <text x="56" y="88" fill="rgba(255,255,255,.92)" font-family="ui-sans-serif,system-ui" font-weight="800" font-size="44">Cryptkeeper</text>
+    <text x="58" y="126" fill="rgba(255,255,255,.75)" font-family="ui-monospace,monospace" font-weight="700" font-size="18">GAME STORE - DEMO ART</text>
+  </g>
+</svg>

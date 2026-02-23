@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="418.092" tests="65" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\YuvatejKodali\GameStoreWebsite\Project\demo\target\test-classes;C:\Users\YuvatejKodali\GameStoreWebsite\Project\demo\target\classes;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-java\4.30.0\selenium-java-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-api\4.30.0\selenium-api-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.30.0\selenium-chrome-driver-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.30.0\selenium-chromium-driver-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-json\4.30.0\selenium-json-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.30.0\selenium-manager-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.30.0\selenium-devtools-v132-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.30.0\selenium-devtools-v133-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v134\4.30.0\selenium-devtools-v134-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.30.0\selenium-edge-driver-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.30.0\selenium-firefox-driver-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-http\4.30.0\selenium-http-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.30.0\selenium-ie-driver-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.30.0\selenium-remote-driver-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\com\google\guava\guava\33.4.5-jre\guava-33.4.5-jre.jar;C:\Users\YuvatejKodali\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\YuvatejKodali\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\YuvatejKodali\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\YuvatejKodali\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\opentelemetry\opentelemetry-api\1.48.0\opentelemetry-api-1.48.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\opentelemetry\opentelemetry-context\1.48.0\opentelemetry-context-1.48.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.48.0\opentelemetry-exporter-logging-1.48.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.48.0\opentelemetry-sdk-common-1.48.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.48.0\opentelemetry-sdk-extension-autoconfigure-spi-1.48.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.48.0\opentelemetry-sdk-extension-autoconfigure-1.48.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.48.0\opentelemetry-sdk-trace-1.48.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.48.0\opentelemetry-sdk-1.48.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.48.0\opentelemetry-sdk-metrics-1.48.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.48.0\opentelemetry-sdk-logs-1.48.0.jar;C:\Users\YuvatejKodali\.m2\repository\net\bytebuddy\byte-buddy\1.17.2\byte-buddy-1.17.2.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-os\4.30.0\selenium-os-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.30.0\selenium-safari-driver-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-support\4.30.0\selenium-support-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\slf4j\slf4j-simple\2.0.13\slf4j-simple-2.0.13.jar;C:\Users\YuvatejKodali\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\YuvatejKodali\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\YuvatejKodali\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\YuvatejKodali\.m2\repository\io\qameta\allure\allure-testng\2.27.0\allure-testng-2.27.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\qameta\allure\allure-test-filter\2.27.0\allure-test-filter-2.27.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.10\bin"/>
+    <property name="sun.java.command" value="C:\Users\YuvatejKodali\AppData\Local\Temp\surefire1846674966578845276\surefirebooter-20260223111029831_3.jar C:\Users\YuvatejKodali\AppData\Local\Temp\surefire1846674966578845276 2026-02-23T11-10-29_540-jvmRun1 surefire-20260223111029831_1tmp surefire_0-20260223111029831_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\YuvatejKodali\GameStoreWebsite\Project\demo\target\test-classes;C:\Users\YuvatejKodali\GameStoreWebsite\Project\demo\target\classes;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-java\4.30.0\selenium-java-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-api\4.30.0\selenium-api-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.30.0\selenium-chrome-driver-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.30.0\selenium-chromium-driver-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-json\4.30.0\selenium-json-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.30.0\selenium-manager-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v132\4.30.0\selenium-devtools-v132-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v133\4.30.0\selenium-devtools-v133-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v134\4.30.0\selenium-devtools-v134-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.30.0\selenium-edge-driver-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.30.0\selenium-firefox-driver-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-http\4.30.0\selenium-http-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.30.0\selenium-ie-driver-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.30.0\selenium-remote-driver-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\com\google\guava\guava\33.4.5-jre\guava-33.4.5-jre.jar;C:\Users\YuvatejKodali\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\YuvatejKodali\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\YuvatejKodali\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\YuvatejKodali\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\opentelemetry\opentelemetry-api\1.48.0\opentelemetry-api-1.48.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\opentelemetry\opentelemetry-context\1.48.0\opentelemetry-context-1.48.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.48.0\opentelemetry-exporter-logging-1.48.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.48.0\opentelemetry-sdk-common-1.48.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.48.0\opentelemetry-sdk-extension-autoconfigure-spi-1.48.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.48.0\opentelemetry-sdk-extension-autoconfigure-1.48.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.48.0\opentelemetry-sdk-trace-1.48.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.48.0\opentelemetry-sdk-1.48.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.48.0\opentelemetry-sdk-metrics-1.48.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.48.0\opentelemetry-sdk-logs-1.48.0.jar;C:\Users\YuvatejKodali\.m2\repository\net\bytebuddy\byte-buddy\1.17.2\byte-buddy-1.17.2.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-os\4.30.0\selenium-os-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.30.0\selenium-safari-driver-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\seleniumhq\selenium\selenium-support\4.30.0\selenium-support-4.30.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\slf4j\slf4j-simple\2.0.13\slf4j-simple-2.0.13.jar;C:\Users\YuvatejKodali\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\YuvatejKodali\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\YuvatejKodali\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\YuvatejKodali\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\YuvatejKodali\.m2\repository\io\qameta\allure\allure-testng\2.27.0\allure-testng-2.27.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\YuvatejKodali\.m2\repository\io\qameta\allure\allure-test-filter\2.27.0\allure-test-filter-2.27.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\YuvatejKodali"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21.0.10"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\YuvatejKodali\GameStoreWebsite\Project\demo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\YuvatejKodali\AppData\Local\Temp\surefire1846674966578845276\surefirebooter-20260223111029831_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.10+8-LTS-217"/>
+    <property name="user.name" value="YuvatejKodali"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\YuvatejKodali\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\YUVATE~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.10"/>
+    <property name="user.dir" value="C:\Users\YuvatejKodali\GameStoreWebsite\Project\demo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Users\YuvatejKodali\Downloads\apache-maven-3.9.12-bin\apache-maven-3.9.12;C:\Program Files\Java\jdk-21.0.10\bin;C:\Users\YuvatejKodali\AppData\Local\Microsoft\WindowsApps;C:\Users\YuvatejKodali\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\YuvatejKodali\AppData\Roaming\npm;C:\Users\YuvatejKodali\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\YuvatejKodali\Downloads\apache-maven-3.9.12-bin\apache-maven-3.9.12\bin;c:\Users\YuvatejKodali\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.10+8-LTS-217"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="loginWithEmptyFields" classname="com.example.Tests.LoginPageTest" time="0.409">
+    <system-err><![CDATA[[main] WARN org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+[main] WARN org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+[main] WARN org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+]]></system-err>
+  </testcase>
+  <testcase name="loginWithInvalidEmail" classname="com.example.Tests.LoginPageTest" time="0.621"/>
+  <testcase name="loginWithShortPassword" classname="com.example.Tests.LoginPageTest" time="0.295"/>
+  <testcase name="loginWithWrongPassword" classname="com.example.Tests.LoginPageTest" time="0.456"/>
+  <testcase name="multipleInvalidLoginAttempts" classname="com.example.Tests.LoginPageTest" time="1.68"/>
+  <testcase name="verifyEmailFieldInput" classname="com.example.Tests.LoginPageTest" time="0.167"/>
+  <testcase name="verifyLoginButtonEnabled" classname="com.example.Tests.LoginPageTest" time="0.076"/>
+  <testcase name="verifyLoginPageLoads" classname="com.example.Tests.LoginPageTest" time="0.041"/>
+  <testcase name="verifyPasswordIsHidden" classname="com.example.Tests.LoginPageTest" time="0.062"/>
+  <testcase name="verifySignupTabSwitch" classname="com.example.Tests.LoginPageTest" time="0.213"/>
+  <testcase name="verifyGamesGridLoads" classname="com.example.Tests.HomePageTest" time="0.169"/>
+  <testcase name="verifyHomePageLoads" classname="com.example.Tests.HomePageTest" time="0.086"/>
+  <testcase name="verifyPageTitle" classname="com.example.Tests.HomePageTest" time="0.11"/>
+  <testcase name="verifyResetButtonVisible" classname="com.example.Tests.HomePageTest" time="0.047"/>
+  <testcase name="verifyResetClearsSearch" classname="com.example.Tests.HomePageTest" time="0.224"/>
+  <testcase name="verifySearchBoxEnabled" classname="com.example.Tests.HomePageTest" time="0.057"/>
+  <testcase name="verifySearchBoxInitiallyEmpty" classname="com.example.Tests.HomePageTest" time="0.061"/>
+  <testcase name="verifySearchBoxVisible" classname="com.example.Tests.HomePageTest" time="0.061"/>
+  <testcase name="verifySearchFunctionality" classname="com.example.Tests.HomePageTest" time="0.085"/>
+  <testcase name="verifySearchValueUpdatesOnSecondInput" classname="com.example.Tests.HomePageTest" time="0.193"/>
+  <testcase name="verifySubtitleIsVisibleAndNotEmpty" classname="com.example.Tests.HomePageTest" time="0.043"/>
+  <testcase name="verifyToastContainerExists" classname="com.example.Tests.HomePageTest" time="0.024"/>
+  <testcase name="verifyUnknownSearchShowsEmptyMessage" classname="com.example.Tests.HomePageTest" time="0.113"/>
+  <testcase name="verifyUrlIsHomePage" classname="com.example.Tests.HomePageTest" time="0.018"/>
+  <testcase name="verifyCartPageLoads" classname="com.example.Tests.CartPageTest" time="0.401"/>
+  <testcase name="verifyCheckoutNavigatesToPaymentPage" classname="com.example.Tests.CartPageTest" time="1.187"/>
+  <testcase name="verifyDecreaseQuantityDoesNotGoBelowOne" classname="com.example.Tests.CartPageTest" time="1.239"/>
+  <testcase name="verifyEmptyCartMessageShown" classname="com.example.Tests.CartPageTest" time="0.372"/>
+  <testcase name="verifyFooterHiddenWhenCartIsEmpty" classname="com.example.Tests.CartPageTest" time="0.382"/>
+  <testcase name="verifyFooterVisibleWhenCartHasItems" classname="com.example.Tests.CartPageTest" time="1.359"/>
+  <testcase name="verifyGrandTotalForMultipleItems" classname="com.example.Tests.CartPageTest" time="1.014"/>
+  <testcase name="verifyGrandTotalForSingleItem" classname="com.example.Tests.CartPageTest" time="0.916"/>
+  <testcase name="verifyIncreaseQuantityUpdatesCount" classname="com.example.Tests.CartPageTest" time="1.031"/>
+  <testcase name="verifyRemoveItemMakesCartEmpty" classname="com.example.Tests.CartPageTest" time="11.152"/>
+  <testcase name="verifyRemovingOneItemKeepsOtherItemInCart" classname="com.example.Tests.CartPageTest" time="0.962"/>
+  <testcase name="verifyRemovingSingleItemHidesFooter" classname="com.example.Tests.CartPageTest" time="1.139"/>
+  <testcase name="verifySingleItemIsRendered" classname="com.example.Tests.CartPageTest" time="0.987"/>
+  <testcase name="verifyCardNumberAutoFormatting" classname="com.example.Tests.PaymentPageTest" time="1.22"/>
+  <testcase name="verifyCvvAllowsOnlyDigitsAndMaxLengthFour" classname="com.example.Tests.PaymentPageTest" time="1.242"/>
+  <testcase name="verifyExpiryAutoFormatting" classname="com.example.Tests.PaymentPageTest" time="1.481"/>
+  <testcase name="verifyNoCartMessageWhenOpeningPaymentWithEmptyCart" classname="com.example.Tests.PaymentPageTest" time="0.579"/>
+  <testcase name="verifyOrderSummaryForMultipleItems" classname="com.example.Tests.PaymentPageTest" time="1.515"/>
+  <testcase name="verifyOrderSummaryShowsAddedItems" classname="com.example.Tests.PaymentPageTest" time="1.21"/>
+  <testcase name="verifyOrderTotalForMultipleItems" classname="com.example.Tests.PaymentPageTest" time="1.563"/>
+  <testcase name="verifyOrderTotalForSingleItem" classname="com.example.Tests.PaymentPageTest" time="1.276"/>
+  <testcase name="verifyPaymentPageLoadsAfterCheckout" classname="com.example.Tests.PaymentPageTest" time="1.265"/>
+  <testcase name="verifySuccessfulPaymentRedirectsToOrders" classname="com.example.Tests.PaymentPageTest" time="5.356"/>
+  <testcase name="verifyValidationForEmptyCardholderName" classname="com.example.Tests.PaymentPageTest" time="4.309"/>
+  <testcase name="verifyValidationForInvalidCardNumber" classname="com.example.Tests.PaymentPageTest" time="3.317"/>
+  <testcase name="verifyValidationForInvalidCvv" classname="com.example.Tests.PaymentPageTest" time="3.915"/>
+  <testcase name="verifyValidationForInvalidExpiry" classname="com.example.Tests.PaymentPageTest" time="3.748"/>
+  <testcase name="verifyValidationForMissingCountry" classname="com.example.Tests.PaymentPageTest" time="2.809"/>
+  <testcase name="verifyAnotherPurchaseAddsAnotherRenderedOrder" classname="com.example.Tests.OrdersPageTest" time="7.151"/>
+  <testcase name="verifyAtLeastOneOrderCardRendered" classname="com.example.Tests.OrdersPageTest" time="3.797"/>
+  <testcase name="verifyNewPurchaseIncreasesStoredOrderCount" classname="com.example.Tests.OrdersPageTest" time="3.686"/>
+  <testcase name="verifyNoOrdersMessageWhenOrderListIsEmpty" classname="com.example.Tests.OrdersPageTest" time="10.389"/>
+  <testcase name="verifyOrderContainsLineItems" classname="com.example.Tests.OrdersPageTest" time="3.817"/>
+  <testcase name="verifyOrderIdFormatStartsWithGS" classname="com.example.Tests.OrdersPageTest" time="3.654"/>
+  <testcase name="verifyOrderMetaContainsPurchasedLabel" classname="com.example.Tests.OrdersPageTest" time="3.866"/>
+  <testcase name="verifyOrderTotalPriceIsDisplayed" classname="com.example.Tests.OrdersPageTest" time="3.926"/>
+  <testcase name="verifyOrdersListVisibleWhenOrdersExist" classname="com.example.Tests.OrdersPageTest" time="3.706"/>
+  <testcase name="verifyOrdersPageLoads" classname="com.example.Tests.OrdersPageTest" time="0.365"/>
+  <testcase name="verifyOrdersPageUrlIsCorrect" classname="com.example.Tests.OrdersPageTest" time="3.733"/>
+  <testcase name="verifyStoredOrdersCountIsPositive" classname="com.example.Tests.OrdersPageTest" time="3.687"/>
+  <testcase name="verifySuccessBannerShownAfterPaymentRedirect" classname="com.example.Tests.OrdersPageTest" time="3.767"/>
+</testsuite>

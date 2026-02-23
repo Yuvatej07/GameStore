@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="Void Echo cover art">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00D4FF"/>
+      <stop offset="1" stop-color="#35D07F"/>
+    </linearGradient>
+    <radialGradient id="r" cx="30%" cy="25%" r="75%">
+      <stop offset="0" stop-color="rgba(255,255,255,.22)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+    <filter id="n" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="
+        0 0 0 0 0
+        0 0 0 0 0
+        0 0 0 0 0
+        0 0 0 .18 0"/>
+    </filter>
+  </defs>
+  <rect width="960" height="600" fill="#0B1020"/>
+  <rect width="960" height="600" fill="url(#g)" opacity=".85"/>
+  <rect width="960" height="600" fill="url(#r)"/>
+  <rect width="960" height="600" filter="url(#n)" opacity=".65"/>
+  <g opacity=".85">
+    <path d="M70 430 C220 300, 340 520, 520 420 S 820 380, 900 260" fill="none" stroke="rgba(255,255,255,.22)" stroke-width="10"/>
+    <path d="M60 510 C250 380, 420 560, 600 470 S 840 460, 930 330" fill="none" stroke="rgba(0,0,0,.25)" stroke-width="14"/>
+  </g>
+  <!-- Planet / orbit icon -->
+  <g opacity=".28" transform="translate(290 175)">
+    <circle cx="210" cy="200" r="120" fill="rgba(255,255,255,.18)" stroke="rgba(0,0,0,.22)" stroke-width="8"/>
+    <path d="M70 210 C140 130, 280 120, 350 190 C420 260, 380 330, 290 360 C200 390, 110 350, 80 290"
+      fill="none" stroke="rgba(255,255,255,.20)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M40 190 C140 70, 340 60, 420 170 C500 280, 410 400, 260 420 C120 438, 30 330, 55 245"
+      fill="none" stroke="rgba(0,0,0,.18)" stroke-width="14" stroke-linecap="round" opacity=".6"/>
+    <circle cx="310" cy="125" r="14" fill="rgba(255,255,255,.22)"/>
+  </g>
+  <g>
+    <text x="56" y="88" fill="rgba(255,255,255,.92)" font-family="ui-sans-serif,system-ui" font-weight="800" font-size="44">Void Echo</text>
+    <text x="58" y="126" fill="rgba(255,255,255,.75)" font-family="ui-monospace,monospace" font-weight="700" font-size="18">GAME STORE - DEMO ART</text>
+  </g>
+</svg>
