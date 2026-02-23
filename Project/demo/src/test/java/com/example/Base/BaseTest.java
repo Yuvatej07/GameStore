@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -20,7 +21,12 @@ public class BaseTest {
         Logger.getLogger("org.openqa.selenium.devtools.CdpVersionFinder").setLevel(Level.SEVERE);
         Logger.getLogger("org.openqa.selenium.chromium.ChromiumDriver").setLevel(Level.SEVERE);
 
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        if ("true".equalsIgnoreCase(System.getenv("CI"))) {
+            options.addArguments("--headless=new", "--no-sandbox", "--disable-dev-shm-usage", "--window-size=1920,1080");
+        }
+
+        driver = new ChromeDriver(options);
 
         driver.manage().window().maximize();
         driver.manage().timeouts()
