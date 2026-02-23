@@ -48,9 +48,9 @@ jobs:
         if: always()
         run: |
           if [ -d Project/demo/target/allure-results ]; then
-            npx allure generate Project/demo/target/allure-results --clean -o _site
+            npx allure-commandline generate Project/demo/target/allure-results --clean -o _site
           elif [ -d Project/demo/allure-results ]; then
-            npx allure generate Project/demo/allure-results --clean -o _site
+            npx allure-commandline generate Project/demo/allure-results --clean -o _site
           else
             mkdir -p _site
             printf '%s\n' '<h1>No Allure results generated in this run.</h1>' > _site/index.html
