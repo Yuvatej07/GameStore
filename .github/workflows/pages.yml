@@ -48,24 +48,13 @@ jobs:
         if: always()
         run: |
           if [ -d Project/demo/target/allure-results ]; then
-            npx allure generate Project/demo/target/allure-results --clean -o _site/allure
+            npx allure generate Project/demo/target/allure-results --clean -o _site
           else
-            mkdir -p _site/allure
-            echo "<h1>No Allure results generated in this run.</h1>" > _site/allure/index.html
+            mkdir -p _site
+            cat > _site/index.html <<'EOF'
+            <h1>No Allure results generated in this run.</h1>
+            EOF
           fi
-
-      - name: Build site artifact
-        if: always()
-        run: |
-          mkdir -p _site
-          if [ -d html ]; then
-            cp -r html/* _site/
-          else
-            compgen -G "*.html" > /dev/null && cp -r *.html _site/
-          fi
-          cp -r css _site/css
-          cp -r js _site/js
-          if [ -d resources ]; then cp -r resources _site/resources; fi
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
