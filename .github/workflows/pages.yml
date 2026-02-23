@@ -25,7 +25,11 @@ jobs:
       - name: Build site artifact
         run: |
           mkdir -p _site
-          cp -r html/* _site/
+          if [ -d html ]; then
+            cp -r html/* _site/
+          else
+            compgen -G "*.html" > /dev/null && cp -r *.html _site/
+          fi
           cp -r css _site/css
           cp -r js _site/js
           if [ -d resources ]; then cp -r resources _site/resources; fi
