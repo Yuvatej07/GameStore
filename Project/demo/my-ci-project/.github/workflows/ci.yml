@@ -35,8 +35,7 @@ jobs:
 
       - name: Build with Maven
         if: steps.find_pom.outputs.no_pom != 'true'
-        working-directory: ${{ steps.find_pom.outputs.workdir }}
-        run: mvn -B package --file pom.xml
+        run: mvn -B -f "${{ steps.find_pom.outputs.workdir }}/pom.xml" package
 
       - name: Fail if no pom found
         if: steps.find_pom.outputs.no_pom == 'true'
