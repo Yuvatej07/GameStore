@@ -1,0 +1,23 @@
+{
+  "name": "my-ci-project",
+  "version": "1.0.0",
+  "description": "A project to demonstrate continuous integration with GitHub Actions.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "jest": "^26.0.0",
+    "@types/jest": "^26.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/my-ci-project.git"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC"
+}
